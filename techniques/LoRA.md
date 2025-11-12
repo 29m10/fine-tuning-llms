@@ -122,6 +122,10 @@ LoRA has revolutionized how we customize large language models:
 - **Storage**: Share model adaptations as small files (MBs instead of GBs)
 - **Flexibility**: Easily switch between different specialized versions
 
+## Additional Resources
+
+- 📺 **[LoRA Deep Dive Video](https://www.youtube.com/watch?v=t1caDsMzWBk&t=607s)** - Visual explanation with examples
+
 ## Summary
 
 LoRA works by recognizing that when you fine-tune a language model, you don't need to change every parameter independently. Instead, you can represent most useful changes as the product of two much smaller matrices. This simple mathematical insight makes it practical to customize massive language models on ordinary hardware, opening up AI customization to everyone.
